@@ -22,7 +22,7 @@ function templateList(filelist) {
     let list = '<ul>'
     let i = 0;
     while (i < filelist.length) {
-        list = list + `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`
+        list = list + `<li><a href="/?id=${filelist[i].slice(0, -4)}">${filelist[i].slice(0, -4)}</a></li>`
         i = i + 1;
     }
     list = list + '</ul>'
@@ -47,7 +47,7 @@ const server = http.createServer(function (request, response) {
             })
         } else {
             fs.readdir('./data', function (error, filelist) {
-                fs.readFile(`data/${queryData.id}`, 'utf-8', function (err, description) {
+                fs.readFile(`data/${queryData.id}.txt`, 'utf-8', function (err, description) {
                     let title = queryData.id;
                     let list = templateList(filelist);
                     let template = templateHTML(title, list, `<h2>${title}</h2><p>${description}</p>`);
