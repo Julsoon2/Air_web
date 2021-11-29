@@ -5,8 +5,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </head>
     <body>
-    <p>Lastupdate : 2021-11-29 11:08 </p>
+    <p id = "lastupdate">Lastupdate : 2021-11-29 11:43 </p>
     <div style="text-align: center; margin: 0auto;">
+    <script>
+      let mystring = document.getElementById("lastupdate").innerText;
+      let lastUpdate = new Date(mystring.substring(13));
+      let nowTime = new Date();
+      let elapsedTime = (nowTime.getTime() - lastUpdate.getTime())/1000/60;
+      if (elapsedTime > 70){
+        document.getElementById("lastupdate").style.color = "red";
+      }
+    </script>
     <button type="button" onclick="location.href='index.html'" class="btn btn-primary btn-lg">YS</button>
     <button type="button" onclick="location.href='JR.html'" class="btn btn-primary btn-lg">JR</button>
     <button type="button" onclick="location.href='SH.html'" class="btn btn-primary btn-lg">SH</button>
