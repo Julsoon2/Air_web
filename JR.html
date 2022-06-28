@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    </head>
-    <body>
-    <p id = "lastupdate">Lastupdate : 2022-06-27 17:08 </p>
-    <div style="text-align: center; margin: 0auto;">
-    <script>
-      let mystring = document.getElementById("lastupdate").innerText;
-      let lastUpdate = new Date(mystring.substring(13));
-      let nowTime = new Date();
-      let elapsedTime = (nowTime.getTime() - lastUpdate.getTime())/1000/60;
-      if (elapsedTime > 65){
-        document.getElementById("lastupdate").style.color = "red";
-      }
-    </script>
-    <button type="button" onclick="location.href='index.html'" class="btn btn-primary btn-lg">YS</button>
-    <button type="button" onclick="location.href='JR.html'" class="btn btn-primary btn-lg">JR</button>
-    <button type="button" onclick="location.href='SH.html'" class="btn btn-primary btn-lg">SH</button>
-    </div>
+        <html>
+        <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        </head>
+        <body>
+        <p id = "lastupdate">Lastupdate : 2022-06-28 13:08 </p>
+        <div style="text-align: center; margin: 0auto;">
+        <script>
+          let mystring = document.getElementById("lastupdate").innerText;
+          let lastUpdate = new Date(mystring.substring(13));
+          let nowTime = new Date();
+          let elapsedTime = (nowTime.getTime() - lastUpdate.getTime())/1000/60;
+          if (elapsedTime > 65){
+            document.getElementById("lastupdate").style.color = "red";
+          }
+        </script>
+        <button type="button" onclick="location.href='index.html'" class="btn btn-primary btn-lg">YS</button>
+        <button type="button" onclick="location.href='JR.html'" class="btn btn-primary btn-lg">JR</button>
+        <button type="button" onclick="location.href='SH.html'" class="btn btn-primary btn-lg">SH</button>
+        </div>
 
-    <h1 style="text-align: center; margin: 0auto;">JR</h1>
-    <div style="text-align: center; margin: 0auto;">
-    <button type="button" onclick="location.href='JR_anion.html'" class="btn btn-primary btn-lg">JR_anion</button>
-    <button type="button" onclick="location.href='JR_carbon.html'" class="btn btn-primary btn-lg">JR_carbon</button>
-    <button type="button" onclick="location.href='JR_cation.html'" class="btn btn-primary btn-lg">JR_cation</button>
-    <button type="button" onclick="location.href='JR_salt.html'" class="btn btn-primary btn-lg">JR_salt</button>
-    <button type="button" onclick="location.href='JR_IB.html'" class="btn btn-primary btn-lg">JR_IB</button>
-    <button type="button" onclick="location.href='JR_Contribution.html'" class="btn btn-primary btn-lg">JR_Contribution</button>
+        <h1 style="text-align: center; margin: 0auto;">JR</h1>
+        <div style="text-align: center; margin: 0auto;">
+        <button type="button" onclick="location.href='JR_anion.html'" class="btn btn-primary btn-lg">JR_anion</button>
+        <button type="button" onclick="location.href='JR_carbon.html'" class="btn btn-primary btn-lg">JR_carbon</button>
+        <button type="button" onclick="location.href='JR_cation.html'" class="btn btn-primary btn-lg">JR_cation</button>
+        <button type="button" onclick="location.href='JR_salt.html'" class="btn btn-primary btn-lg">JR_salt</button>
+        <button type="button" onclick="location.href='JR_IB.html'" class="btn btn-primary btn-lg">JR_IB</button>
+        <button type="button" onclick="location.href='JR_Contribution.html'" class="btn btn-primary btn-lg">JR_Contribution</button>
 
-    </div>
-    <div style="text-align: center; margin-left: 75px;">
-    <p><table border="0" class="dataframe">
+        </div>
+        <div style="text-align: center; margin-left: 75px;">
+        <p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: center;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto"></th>
@@ -50,153 +50,36 @@
   </thead>
   <tbody>
     <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062703</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.545</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.013</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.012</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.054</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.123</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.223</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0318</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7626</td>
+      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062812</th>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
     <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062702</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.05</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.557</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.017</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.087</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.054</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.262</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1744</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.636</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062701</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.059</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.615</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.011</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.009</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.155</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.28</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.25</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0101</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.9302</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062700</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.046</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.497</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.021</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.115</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.12</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.27</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0158</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7846</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062623</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.073</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.582</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.017</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.01</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.014</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.168</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.177</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.359</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.005</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7937</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062622</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.112</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.518</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.02</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.018</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.015</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.321</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.238</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.233</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0233</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.8133</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062621</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.109</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.485</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.02</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.184</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.369</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.306</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0315</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7804</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062620</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.185</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.499</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.009</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.031</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.019</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.298</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.241</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.413</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0112</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.0007</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062619</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.293</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.498</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.014</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.039</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.022</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.4</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.274</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.559</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0048</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.2255</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062618</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.426</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.488</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.029</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.054</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.028</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.45</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.528</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.781</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0107</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.9392</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062617</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.654</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.527</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.033</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.076</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.032</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.749</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.459</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.991</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1124</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.0623</td>
+      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062811</th>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
   </tbody>
 </table></p>
-    </div>
-    <div style="text-align: center; margin-left: 75px;">
-    <p><table border="0" class="dataframe">
+        </div>
+        <div style="text-align: center; margin-left: 75px;">
+        <p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: center;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto"></th>
@@ -213,142 +96,34 @@
   </thead>
   <tbody>
     <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062703</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7944</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5486</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.8763</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2239</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0918</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0221</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0067</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0472</td>
+      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062812</th>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
     <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062702</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.8105</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5525</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.83</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2168</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1517</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.115</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0228</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0367</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062701</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.9403</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5336</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.9772</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2425</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1646</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0124</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.008</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0145</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062700</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.8004</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5693</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.876</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2245</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.106</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.009</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0033</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0216</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062623</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.7988</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5859</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.8594</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2439</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0988</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0061</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0024</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0087</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062622</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.8366</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5453</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.9149</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2443</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1009</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0081</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0014</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.03</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062621</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.8119</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5646</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.8956</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2014</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1182</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0007</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0064</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0258</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062620</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.0118</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.563</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.0301</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2961</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1082</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0035</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0046</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.01</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062619</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.2303</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5737</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.1626</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.3395</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1429</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0069</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.007</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0047</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062618</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.9498</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.5781</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.9725</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2591</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1191</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0106</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0068</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0144</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062617</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2.1748</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.6482</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">1.0304</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.3213</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.1495</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.087</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0025</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0229</td>
+      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062811</th>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
   </tbody>
 </table></p>
-    </div>
-    <div style="text-align: center; margin-left: 75px;">
-    <p><table border="0" class="dataframe">
+        </div>
+        <div style="text-align: center; margin-left: 75px;">
+        <p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: center;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto"></th>
@@ -364,129 +139,30 @@
   </thead>
   <tbody>
     <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062703</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.05</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.268</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.091</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.425</td>
+      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062812</th>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
     <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062702</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.05</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.188</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.108</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.396</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062701</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.05</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.364</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.102</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.406</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062700</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.049</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.339</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.112</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.433</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062623</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.051</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.359</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.14</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.027</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.392</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062622</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.049</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.49</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.139</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.438</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062621</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.049</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.635</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.133</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.031</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.53</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062620</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.05</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.642</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.158</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.036</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.686</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062619</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.051</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.717</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.19</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.031</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.762</td>
-    </tr>
-    <tr>
-      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062618</th>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.051</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.984</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.243</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.805</td>
-    </tr>
-    <tr>
-      <th style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062617</th>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.051</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">5.976</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.2</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.0</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">0.786</td>
+      <th style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">2022062811</th>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: center;padding: 0px 20px 0px 0px;width: auto">-9999.0</td>
     </tr>
   </tbody>
 </table></p>
-    </div>
+        </div>
 
-    </body>
-    </html>
+        </body>
+        </html>
